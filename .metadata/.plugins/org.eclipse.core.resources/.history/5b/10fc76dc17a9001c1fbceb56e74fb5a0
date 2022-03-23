@@ -1,0 +1,32 @@
+package challenge;
+
+public class VipCustomer {
+	private String name;
+	private double creditLimit;
+	private String email;
+	
+	
+	public VipCustomer() {
+		super();
+		this("Bob", 222.2, "default.email@gmail.com");
+	}
+
+
+	public VipCustomer(String name, double creditLimit, String email) {
+		super();
+		this.name = name;
+		this.creditLimit = creditLimit;
+		this.email = email;
+	}
+
+
+	public VipCustomer(double creditLimit, String email) {
+		super();
+		this("Bob", creditLimit, email);
+	}
+	
+	
+	
+	
+
+}

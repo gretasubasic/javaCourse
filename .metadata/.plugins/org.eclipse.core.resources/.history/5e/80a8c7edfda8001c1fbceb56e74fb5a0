@@ -1,0 +1,12 @@
+package challenge;
+
+public class Main {
+
+	public static void main(String[] args) {
+		BankAccount person1 = new BankAccount();
+		
+		person1.setNumber(24);
+
+	}
+
+}

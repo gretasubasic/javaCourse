@@ -1,0 +1,17 @@
+package gettersNSetters;
+
+public class GettersnSetters {
+	
+	// getters and setters allow you to get and set a variables inside of a class
+	// a class represents an object 
+	
+	String name;
+	int age;
+	
+	public static void happyBirthday(String name) {
+		System.out.println("Happy birthday " + name);
+	}
+	
+	
+
+}

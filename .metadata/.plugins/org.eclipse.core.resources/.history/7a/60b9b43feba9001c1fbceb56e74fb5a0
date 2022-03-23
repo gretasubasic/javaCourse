@@ -1,0 +1,35 @@
+package house;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// this code is creating instances of the House class, changing the color and printing out the result
+		// the line House blueHouse = new House("blue"); creates a new instance of the House class. 
+		// Remember, House is a blueprint, and we are assigning it to a variable blueHouse. In other words,
+		// it is a reference to the object in memory. 
+		House blueHouse = new House("blue");
+		
+		// the next line House anotherHouse = blueHouse; creates another reference to the same object in memory.
+		// Here we have two references pointing to the same object in memory. There is still one house, 
+		// but two references to that one object. In other words, we have two pieces of paper with the physical adress
+		// of where the house is built.
+		
+		
+		
+		House anotherHouse = blueHouse;
+		
+		// NExt, we have two println statements that print the blueHouse color and anotherHouse color. 
+		// Both will print blue since we have references to the same object. 
+		
+		System.out.println(blueHouse.getColor());
+		System.out.println(anotherHouse.getColor());
+		
+		anotherHouse.setColor("yellow");
+		
+		System.out.println(blueHouse.getColor());
+		System.out.println(anotherHouse.getColor());
+		
+		
+	}
+
+}

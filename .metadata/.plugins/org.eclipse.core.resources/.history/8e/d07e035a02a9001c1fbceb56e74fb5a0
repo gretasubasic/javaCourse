@@ -1,0 +1,14 @@
+package challengeSoultion;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Account bobsAccount = new Account();
+		
+		bobsAccount.deposit(356);
+		bobsAccount.withdrawl(100);
+
+
+	}
+
+}

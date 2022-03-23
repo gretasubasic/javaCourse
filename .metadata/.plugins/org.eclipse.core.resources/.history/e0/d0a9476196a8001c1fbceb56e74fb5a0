@@ -1,0 +1,23 @@
+package Classes;
+
+public class Car {
+	
+	// public class Car is the statement to create a new Class with the name Car
+	// public keyword is access modifier that we use here to determinate access we want to allow
+	// other to have to this new class we are creating 
+	// word public means unrestricted access to the class 
+	// another access modifier we can use are private and that is when no other class can access that class
+	// 
+
+	private int doors;
+	private int wheels;
+	private String model;
+	private String engine;
+	private String color;
+	
+	// what we are trying to create here is a template of the variables that would be part of the car
+	// this is the state component which we are defining as fields. 
+	
+	
+
+}

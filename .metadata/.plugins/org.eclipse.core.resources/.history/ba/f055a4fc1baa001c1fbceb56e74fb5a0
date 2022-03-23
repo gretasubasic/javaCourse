@@ -1,0 +1,13 @@
+package gettersNSetters;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Account a = new Account();
+		
+		a.age = 34;
+		a.name = "Pablo"
+
+	}
+
+}

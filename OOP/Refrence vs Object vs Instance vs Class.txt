@@ -1,0 +1,16 @@
+<CLASS>
+
+A class is basically a blueprint for a house, using a blueprint (plan) we can build as many houses as we want
+based on those plans (blueprint)
+
+Each house you build (in other words an instantiate using the new operator) is an object also 
+known an an INSTANCE!
+
+Each house you build has an address (a physical location). In other words, if you want to tell someone where you live
+you give them your address (perhaps written on paper). This is known as a reference.
+
+You can copy that reference as many times as you like but there is still just one house. In other words,
+we are copying the paper that has address on it, not the house itself.
+
+
+We can pass references as parameters to constructors and methods. 

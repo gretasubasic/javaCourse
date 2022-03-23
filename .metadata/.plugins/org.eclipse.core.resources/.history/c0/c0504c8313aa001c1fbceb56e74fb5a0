@@ -1,0 +1,12 @@
+package human;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Human greta = new Human("Greta", 26, 67);
+
+		System.out.println(human);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+Difference between this and super keyword
+Also, difference between this() and super() method calls 
+
+The keywords super is used to access/call the parent class members (variables and methods)
+The keyword this is used to call the current class members (variables and methods). This is requred when we have 
+a parameter with the same name as an instance variable (field) 
+
+Note: we can use them both anywhere in the class except static areas. 
+
+<<<<KEYWORD THIS >>>>>>
+
+Keyword this is commonly used with constructors and setters, and optionally in getters
+
+<<<Keyword Super >>>>
+
+The keyword super is commonly used with method overriding, when we call a method with the same name from the parent class.

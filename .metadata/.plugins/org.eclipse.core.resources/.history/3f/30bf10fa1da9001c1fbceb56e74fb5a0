@@ -1,0 +1,9 @@
+package inheritance;
+
+public class Dog extends Animal {
+
+	public Dog(int brain, int body, int size, int weight, String name) {
+		super(brain, body, size, weight, name);
+		// TODO Auto-generated constructor stub
+	}
+}

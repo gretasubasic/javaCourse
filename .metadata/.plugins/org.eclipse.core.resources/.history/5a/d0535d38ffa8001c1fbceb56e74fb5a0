@@ -1,0 +1,20 @@
+package challenge;
+
+public class Main {
+
+	public static void main(String[] args) {
+		BankAccount person1 = new BankAccount();
+		
+		person1.setNumber(24);
+		person1.setBalance(356);
+		System.out.println("Number is " + person1.getNumber());
+
+	}
+	
+	public static void depositFunds() {
+		BankAccount person = new BankAccount();
+		balance = person.getBalance();
+		
+	}
+
+}

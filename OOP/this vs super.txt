@@ -1,0 +1,28 @@
+Difference between this and super keyword
+Also, difference between this() and super() method calls 
+
+The keywords super is used to access/call the parent class members (variables and methods)
+The keyword this is used to call the current class members (variables and methods). This is requred when we have 
+a parameter with the same name as an instance variable (field) 
+
+Note: we can use them both anywhere in the class except static areas. 
+
+<<<<KEYWORD THIS >>>>>>
+
+Keyword this is commonly used with constructors and setters, and optionally in getters
+
+<<<Keyword Super >>>>
+
+The keyword super is commonly used with method overriding, when we call a method with the same name from the parent class.
+
+
+In java we have this() AND super() call. Notice the braces, it is known as a call since it looks like a regular method call. 
+Use this() to call a constructor from another overloaded constructor in the same class. 
+The call to this() can be used only in constructor, and it must be the first statement in a constructor. It's used with constructor chaining
+in other words, when one constructor calls another, and it helps to reduce duplicated code. 
+the only way to call a parent constructor is is by calling super(). This calls the parent constructor. 
+
+The java compiler puts a default call to super() if we don't add it, and it's always the noargs super which is inserted by compiler (constructor without arguments)
+The call to super must be the first statement in each constructor. 
+
+NOTE: a constructor can have a call to this() or super() but never both. 

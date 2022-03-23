@@ -1,0 +1,9 @@
+Objects are similar to real life objects. They have state and behaviour. 
+Software objects store it's state in fields and we know fields as variables and they expose behaviour
+with methods. 
+So, where do classes fit in?
+Let's think of the class as the template or blueprint for creating objects. 
+We have seen the classes before. 
+----> public class Main is the statement that creates a new class in Java!
+
+Why do we need to bother with classes? What benefits do classes give us?

@@ -1,0 +1,53 @@
+package challengeSoultion;
+
+public class Account {
+	private int number;
+	private double balance;
+	private String name;
+	private String emailAdress;
+	private String phone;
+	
+	public void deposit(double depositAmount) {
+		this.balance += depositAmount;
+	}
+	
+	public void withdrawl(double withdrawalAmount) {
+		if (this.balance - withdrawalAmount < 0) {
+			System.out.println("Only " + this.balance + "available. Withdrawal not processed." );
+		}
+	}
+	
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getEmailAdress() {
+		return emailAdress;
+	}
+	public void setEmailAdress(String emailAdress) {
+		this.emailAdress = emailAdress;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	
+	
+
+}
